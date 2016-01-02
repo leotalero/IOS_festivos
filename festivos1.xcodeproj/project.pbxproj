@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		971999A51C377F7B00555FEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 971999A41C377F7B00555FEA /* main.m */; };
+		971999A81C377F7B00555FEA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 971999A71C377F7B00555FEA /* AppDelegate.m */; };
+		971999AB1C377F7B00555FEA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 971999AA1C377F7B00555FEA /* ViewController.m */; };
+		971999AE1C377F7B00555FEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 971999AC1C377F7B00555FEA /* Main.storyboard */; };
+		971999B01C377F7B00555FEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 971999AF1C377F7B00555FEA /* Assets.xcassets */; };
+		971999B31C377F7B00555FEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 971999B11C377F7B00555FEA /* LaunchScreen.storyboard */; };
+		971999BE1C377F7B00555FEA /* festivos1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 971999BD1C377F7B00555FEA /* festivos1Tests.m */; };
+		971999C91C377F7B00555FEA /* festivos1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 971999C81C377F7B00555FEA /* festivos1UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		971999BA1C377F7B00555FEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 971999981C377F7A00555FEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9719999F1C377F7B00555FEA;
+			remoteInfo = festivos1;
+		};
+		971999C51C377F7B00555FEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 971999981C377F7A00555FEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9719999F1C377F7B00555FEA;
+			remoteInfo = festivos1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		971999A01C377F7B00555FEA /* festivos1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = festivos1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		971999A41C377F7B00555FEA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		971999A61C377F7B00555FEA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		971999A71C377F7B00555FEA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		971999A91C377F7B00555FEA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		971999AA1C377F7B00555FEA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		971999AD1C377F7B00555FEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		971999AF1C377F7B00555FEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		971999B21C377F7B00555FEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		971999B41C377F7B00555FEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		971999B91C377F7B00555FEA /* festivos1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = festivos1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		971999BD1C377F7B00555FEA /* festivos1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = festivos1Tests.m; sourceTree = "<group>"; };
+		971999BF1C377F7B00555FEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		971999C41C377F7B00555FEA /* festivos1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = festivos1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		971999C81C377F7B00555FEA /* festivos1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = festivos1UITests.m; sourceTree = "<group>"; };
+		971999CA1C377F7B00555FEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9719999D1C377F7B00555FEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		971999B61C377F7B00555FEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		971999C11C377F7B00555FEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		971999971C377F7A00555FEA = {
+			isa = PBXGroup;
+			children = (
+				971999A21C377F7B00555FEA /* festivos1 */,
+				971999BC1C377F7B00555FEA /* festivos1Tests */,
+				971999C71C377F7B00555FEA /* festivos1UITests */,
+				971999A11C377F7B00555FEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		971999A11C377F7B00555FEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				971999A01C377F7B00555FEA /* festivos1.app */,
+				971999B91C377F7B00555FEA /* festivos1Tests.xctest */,
+				971999C41C377F7B00555FEA /* festivos1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		971999A21C377F7B00555FEA /* festivos1 */ = {
+			isa = PBXGroup;
+			children = (
+				971999A61C377F7B00555FEA /* AppDelegate.h */,
+				971999A71C377F7B00555FEA /* AppDelegate.m */,
+				971999A91C377F7B00555FEA /* ViewController.h */,
+				971999AA1C377F7B00555FEA /* ViewController.m */,
+				971999AC1C377F7B00555FEA /* Main.storyboard */,
+				971999AF1C377F7B00555FEA /* Assets.xcassets */,
+				971999B11C377F7B00555FEA /* LaunchScreen.storyboard */,
+				971999B41C377F7B00555FEA /* Info.plist */,
+				971999A31C377F7B00555FEA /* Supporting Files */,
+			);
+			path = festivos1;
+			sourceTree = "<group>";
+		};
+		971999A31C377F7B00555FEA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				971999A41C377F7B00555FEA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		971999BC1C377F7B00555FEA /* festivos1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				971999BD1C377F7B00555FEA /* festivos1Tests.m */,
+				971999BF1C377F7B00555FEA /* Info.plist */,
+			);
+			path = festivos1Tests;
+			sourceTree = "<group>";
+		};
+		971999C71C377F7B00555FEA /* festivos1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				971999C81C377F7B00555FEA /* festivos1UITests.m */,
+				971999CA1C377F7B00555FEA /* Info.plist */,
+			);
+			path = festivos1UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9719999F1C377F7B00555FEA /* festivos1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 971999CD1C377F7B00555FEA /* Build configuration list for PBXNativeTarget "festivos1" */;
+			buildPhases = (
+				9719999C1C377F7B00555FEA /* Sources */,
+				9719999D1C377F7B00555FEA /* Frameworks */,
+				9719999E1C377F7B00555FEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = festivos1;
+			productName = festivos1;
+			productReference = 971999A01C377F7B00555FEA /* festivos1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		971999B81C377F7B00555FEA /* festivos1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 971999D01C377F7B00555FEA /* Build configuration list for PBXNativeTarget "festivos1Tests" */;
+			buildPhases = (
+				971999B51C377F7B00555FEA /* Sources */,
+				971999B61C377F7B00555FEA /* Frameworks */,
+				971999B71C377F7B00555FEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				971999BB1C377F7B00555FEA /* PBXTargetDependency */,
+			);
+			name = festivos1Tests;
+			productName = festivos1Tests;
+			productReference = 971999B91C377F7B00555FEA /* festivos1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		971999C31C377F7B00555FEA /* festivos1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 971999D31C377F7B00555FEA /* Build configuration list for PBXNativeTarget "festivos1UITests" */;
+			buildPhases = (
+				971999C01C377F7B00555FEA /* Sources */,
+				971999C11C377F7B00555FEA /* Frameworks */,
+				971999C21C377F7B00555FEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				971999C61C377F7B00555FEA /* PBXTargetDependency */,
+			);
+			name = festivos1UITests;
+			productName = festivos1UITests;
+			productReference = 971999C41C377F7B00555FEA /* festivos1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		971999981C377F7A00555FEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = unir;
+				TargetAttributes = {
+					9719999F1C377F7B00555FEA = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = VRCBD4S492;
+					};
+					971999B81C377F7B00555FEA = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = VRCBD4S492;
+						TestTargetID = 9719999F1C377F7B00555FEA;
+					};
+					971999C31C377F7B00555FEA = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = VRCBD4S492;
+						TestTargetID = 9719999F1C377F7B00555FEA;
+					};
+				};
+			};
+			buildConfigurationList = 9719999B1C377F7A00555FEA /* Build configuration list for PBXProject "festivos1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 971999971C377F7A00555FEA;
+			productRefGroup = 971999A11C377F7B00555FEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9719999F1C377F7B00555FEA /* festivos1 */,
+				971999B81C377F7B00555FEA /* festivos1Tests */,
+				971999C31C377F7B00555FEA /* festivos1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9719999E1C377F7B00555FEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				971999B31C377F7B00555FEA /* LaunchScreen.storyboard in Resources */,
+				971999B01C377F7B00555FEA /* Assets.xcassets in Resources */,
+				971999AE1C377F7B00555FEA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		971999B71C377F7B00555FEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		971999C21C377F7B00555FEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9719999C1C377F7B00555FEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				971999AB1C377F7B00555FEA /* ViewController.m in Sources */,
+				971999A81C377F7B00555FEA /* AppDelegate.m in Sources */,
+				971999A51C377F7B00555FEA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		971999B51C377F7B00555FEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				971999BE1C377F7B00555FEA /* festivos1Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		971999C01C377F7B00555FEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				971999C91C377F7B00555FEA /* festivos1UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		971999BB1C377F7B00555FEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9719999F1C377F7B00555FEA /* festivos1 */;
+			targetProxy = 971999BA1C377F7B00555FEA /* PBXContainerItemProxy */;
+		};
+		971999C61C377F7B00555FEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9719999F1C377F7B00555FEA /* festivos1 */;
+			targetProxy = 971999C51C377F7B00555FEA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		971999AC1C377F7B00555FEA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				971999AD1C377F7B00555FEA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		971999B11C377F7B00555FEA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				971999B21C377F7B00555FEA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		971999CB1C377F7B00555FEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		971999CC1C377F7B00555FEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		971999CE1C377F7B00555FEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = festivos1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = leonardotalero.festivos1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		971999CF1C377F7B00555FEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = festivos1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = leonardotalero.festivos1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		971999D11C377F7B00555FEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = festivos1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = leonardotalero.festivos1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/festivos1.app/festivos1";
+			};
+			name = Debug;
+		};
+		971999D21C377F7B00555FEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = festivos1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = leonardotalero.festivos1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/festivos1.app/festivos1";
+			};
+			name = Release;
+		};
+		971999D41C377F7B00555FEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = festivos1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = leonardotalero.festivos1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = festivos1;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		971999D51C377F7B00555FEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = festivos1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = leonardotalero.festivos1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = festivos1;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9719999B1C377F7A00555FEA /* Build configuration list for PBXProject "festivos1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				971999CB1C377F7B00555FEA /* Debug */,
+				971999CC1C377F7B00555FEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		971999CD1C377F7B00555FEA /* Build configuration list for PBXNativeTarget "festivos1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				971999CE1C377F7B00555FEA /* Debug */,
+				971999CF1C377F7B00555FEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		971999D01C377F7B00555FEA /* Build configuration list for PBXNativeTarget "festivos1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				971999D11C377F7B00555FEA /* Debug */,
+				971999D21C377F7B00555FEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		971999D31C377F7B00555FEA /* Build configuration list for PBXNativeTarget "festivos1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				971999D41C377F7B00555FEA /* Debug */,
+				971999D51C377F7B00555FEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 971999981C377F7A00555FEA /* Project object */;
+}
