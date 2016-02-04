@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		971999A51C377F7B00555FEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 971999A41C377F7B00555FEA /* main.m */; };
 		971999A81C377F7B00555FEA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 971999A71C377F7B00555FEA /* AppDelegate.m */; };
-		971999AB1C377F7B00555FEA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 971999AA1C377F7B00555FEA /* ViewController.m */; };
 		971999AE1C377F7B00555FEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 971999AC1C377F7B00555FEA /* Main.storyboard */; };
 		971999B01C377F7B00555FEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 971999AF1C377F7B00555FEA /* Assets.xcassets */; };
 		971999B31C377F7B00555FEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 971999B11C377F7B00555FEA /* LaunchScreen.storyboard */; };
 		971999BE1C377F7B00555FEA /* festivos1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 971999BD1C377F7B00555FEA /* festivos1Tests.m */; };
 		971999C91C377F7B00555FEA /* festivos1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 971999C81C377F7B00555FEA /* festivos1UITests.m */; };
+		971999D81C37807800555FEA /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 971999D71C37807800555FEA /* TableViewController.m */; };
+		971999DB1C37831100555FEA /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 971999DA1C37831100555FEA /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +40,6 @@
 		971999A41C377F7B00555FEA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		971999A61C377F7B00555FEA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		971999A71C377F7B00555FEA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		971999A91C377F7B00555FEA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		971999AA1C377F7B00555FEA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		971999AD1C377F7B00555FEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		971999AF1C377F7B00555FEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		971999B21C377F7B00555FEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +50,10 @@
 		971999C41C377F7B00555FEA /* festivos1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = festivos1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		971999C81C377F7B00555FEA /* festivos1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = festivos1UITests.m; sourceTree = "<group>"; };
 		971999CA1C377F7B00555FEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		971999D61C37807800555FEA /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableViewController.h; path = ../TableViewController.h; sourceTree = "<group>"; };
+		971999D71C37807800555FEA /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableViewController.m; path = ../TableViewController.m; sourceTree = "<group>"; };
+		971999D91C37831100555FEA /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		971999DA1C37831100555FEA /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +104,13 @@
 		971999A21C377F7B00555FEA /* festivos1 */ = {
 			isa = PBXGroup;
 			children = (
+				971999D61C37807800555FEA /* TableViewController.h */,
+				971999D71C37807800555FEA /* TableViewController.m */,
 				971999A61C377F7B00555FEA /* AppDelegate.h */,
 				971999A71C377F7B00555FEA /* AppDelegate.m */,
-				971999A91C377F7B00555FEA /* ViewController.h */,
-				971999AA1C377F7B00555FEA /* ViewController.m */,
 				971999AC1C377F7B00555FEA /* Main.storyboard */,
+				971999D91C37831100555FEA /* DetailViewController.h */,
+				971999DA1C37831100555FEA /* DetailViewController.m */,
 				971999AF1C377F7B00555FEA /* Assets.xcassets */,
 				971999B11C377F7B00555FEA /* LaunchScreen.storyboard */,
 				971999B41C377F7B00555FEA /* Info.plist */,
@@ -273,9 +278,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				971999AB1C377F7B00555FEA /* ViewController.m in Sources */,
 				971999A81C377F7B00555FEA /* AppDelegate.m in Sources */,
+				971999D81C37807800555FEA /* TableViewController.m in Sources */,
 				971999A51C377F7B00555FEA /* main.m in Sources */,
+				971999DB1C37831100555FEA /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
